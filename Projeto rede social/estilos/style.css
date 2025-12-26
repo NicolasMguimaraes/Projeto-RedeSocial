@@ -39,3 +39,32 @@ iframe#tela{
 html, body {
     overflow-x: hidden;
 }
+section#logos img{
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px black;
+    
+}
+section#logos{
+margin-top: -360px;
+border-radius:30px;
+
+
+}
+section#logos img:hover{
+border: 2px solid white;
+box-sizing: border-box
+transform: translate(-7px -7px);
+Transition-duration:1s;
+}
+
+iframe#tela2{
+    position: absolute;
+    left: 23px;
+    top: 70px;
+    height: 411px;
+    width: 233px;    
+    background-size: contain;
+}
