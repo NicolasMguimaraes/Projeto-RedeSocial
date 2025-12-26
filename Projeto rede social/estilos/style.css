@@ -16,21 +16,26 @@ background-size: cover;
 section#Celular{
     position: relative;
     background: url(../imagens/frame-iphone.png)no-repeat center center;
-   height: 627px;
-   width: 311px;
+   height: 550px;
+   width: 280px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    
+    background-size: contain;
+
     
     
 }
 iframe#tela{
     position: absolute;
     left: 23px;
-    top: 80px;
-    height: 468px;
-    width: 264px;
-    border: none;
+    top: 70px;
+    height: 411px;
+    width: 233px;    
+    background-size: contain;
 
+}
+
+html, body {
+    overflow-x: hidden;
 }
